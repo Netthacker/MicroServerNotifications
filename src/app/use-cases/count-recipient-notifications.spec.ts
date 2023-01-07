@@ -23,8 +23,6 @@ describe('Count Recipient Notification Test', () => {
       recipientId: 'recipient-1',
     });
 
-    console.log(notificationsRepository.notifications);
-
     expect(count).toEqual(2);
   });
 });
